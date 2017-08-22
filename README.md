@@ -13,7 +13,12 @@ If you find INQ useful in your research, please consider citing:
     }
 
 
-
+    @inproceedings{KongtCVPR2017,
+        Author = {Tao Kong, Fuchun Sun, Anbang Yao, Huaping Liu, Ming Lu, Yurong Chen},
+        Title = {RON: Reverse Connection with Objectness Prior Networks for Object Detection},
+        Booktitle = {IEEE Conference on Computer Vision and Pattern Recognition},
+        Year = {2017}
+    }
 ## Tips:
 
 
