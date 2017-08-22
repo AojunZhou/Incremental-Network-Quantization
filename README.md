@@ -12,10 +12,9 @@ If you find INQ useful in your research, please consider citing:
         Year = {2017}
     }
 
-code coming soon....
 
 
 ## Tips:
 
 
-
+code coming soon....
