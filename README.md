@@ -5,9 +5,8 @@ Caffe Implementation for Incremental network quantization
 
 If you find INQ useful in your research, please consider citing:
 
-    xxx
-    yyy>1
-
+	if x>y:
+		xx
 	
 
 ## Tips:
