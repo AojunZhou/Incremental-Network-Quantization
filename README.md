@@ -1,5 +1,5 @@
 # Incremental-Network-Quantization
-Caffe Implementation for Incremental network quantization, we modify the original caffe, the Installation is follow [caffe](http://caffe.berkeleyvision.org/install_apt.html)
+Caffe Implementation for Incremental network quantization, we modify the original caffe, the Installation is follow [caffe](http://caffe.berkeleyvision.org/install_apt.html), and you must be farmilar with caffe training imagenet tutorial
 
 ### Citing INQ
 
@@ -14,6 +14,9 @@ If you find INQ useful in your research, please consider citing:
 	
 
 ## Tips:
+
+1. Real-time data shuffling is useful
+
 
 
 code coming soon....
