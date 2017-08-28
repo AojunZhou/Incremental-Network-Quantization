@@ -1,5 +1,14 @@
 # Incremental-Network-Quantization
-Caffe Implementation for Incremental network quantization, we modify the original caffe, the Installation is follow [caffe](http://caffe.berkeleyvision.org/install_apt.html), and you must be farmilar with caffe training imagenet tutorial
+Caffe Implementation for Incremental network quantization, we modify the original caffe, the Installation is follow [caffe](http://caffe.berkeleyvision.org/install_apt.html).
+
+the default source code is 5 bits weights-only quantization, you can by changing parameter "partition" to control the quantization step. 
+
+# INQ usage
+
+0.you must be farmilar with caffe training [imagenet tutorial](http://caffe.berkeleyvision.org/gathered/examples/imagenet.html)
+
+1. Train 5 bits Alexnet with imagenet
+	python run.py
 
 ### Citing INQ
 
