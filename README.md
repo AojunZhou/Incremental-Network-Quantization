@@ -11,7 +11,8 @@ the default source code is 5 bits weights-only quantization, you can by changing
 
 	python run.py
 
-[BaiduYun](https://pan.baidu.com/disk/home#list/vmode=list&path=%2FINQ-model)
+[BaiduYun](https://pan.baidu.com/s/1qYHkbus)
+
 2. Each partition step output log correspond respectively run1_log.out, run2_log.out, run3_log.out, run4_log.out.
 
 ### Citing INQ
