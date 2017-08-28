@@ -1,7 +1,7 @@
 # Incremental-Network-Quantization
 Caffe Implementation for Incremental network quantization, we modify the original caffe, the Installation is follow [caffe](http://caffe.berkeleyvision.org/install_apt.html).
 
-the default source code is 5 bits weights-only quantization, you can by changing parameter "partition" to control the quantization step. 
+the default source code is 5 bits weights-only quantization, you can by changing parameter "partition"(/src/caffe/blob.cpp) to control the quantization step. 
 
 # INQ usage
 
@@ -10,6 +10,8 @@ the default source code is 5 bits weights-only quantization, you can by changing
 1.Train 5 bits Alexnet with Imagenet:
 
 	python run.py
+	
+2. Each partition step output log correspond respectively run1_log.out, run2_log.out, run3_log.out, run4_log.out.
 
 ### Citing INQ
 
