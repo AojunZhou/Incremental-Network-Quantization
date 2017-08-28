@@ -7,7 +7,8 @@ the default source code is 5 bits weights-only quantization, you can by changing
 
 0.you must be farmilar with caffe training [imagenet tutorial](http://caffe.berkeleyvision.org/gathered/examples/imagenet.html)
 
-1. Train 5 bits Alexnet with imagenet
+1.Train 5 bits Alexnet with Imagenet:
+
 	python run.py
 
 ### Citing INQ
