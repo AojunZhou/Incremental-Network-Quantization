@@ -14,7 +14,7 @@ the default source code is 5 bits weights-only quantization, you can by changing
 Please download float-point ImageNet-pre-trained AlexNet/VGG models and power-of-two model manually from [BaiduYun](https://pan.baidu.com/s/1qYHkbus)
 
 
-2. Each partition step output log correspond respectively run1_log.out, run2_log.out, run3_log.out, run4_log.out.
+2.Each partition step output log correspond respectively run1_log.out, run2_log.out, run3_log.out, run4_log.out.
 
 ### Citing INQ
 
