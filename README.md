@@ -11,10 +11,10 @@ the default source code is 5 bits weights-only quantization, you can by changing
 
 	python run.py
 
-Please download float-point ImageNet-pre-trained AlexNet/VGG models and power-of-two model manually from [BaiduYun](https://pan.baidu.com/s/1qYHkbus)
+Please download float-point ImageNet-pre-trained AlexNet/VGG models and power-of-two model manually from [BaiduYun](https://pan.baidu.com/s/1qYHkbus), and put it into $/models/bvlc_alexnet/.
 
 
-2.Each partition step output log correspond respectively run1_log.out, run2_log.out, run3_log.out, run4_log.out.
+2.At continuous partition steps, the output logs are saved as run1_log.out, run2_log.out, run3_log.out,..., respectively
 
 ### Citing INQ
 
@@ -31,7 +31,3 @@ If you find INQ useful in your research, please consider citing:
 ## Tips:
 
 1. Real-time data shuffling is useful
-
-
-
-usage come soon....
