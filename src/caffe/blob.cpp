@@ -533,7 +533,7 @@ void Blob<Dtype>::FromProto(const BlobProto& proto, bool reshape, bool is_quanti
 
     for (int i = 0; i < (count_); ++i) {
     
-      if(std::abs(data_vec[i])>data_copy[partition])
+      if(std::abs(data_vec[i])>=data_copy[partition])
         {
           data_vec[i] = weightCluster_zero(data_vec[i],n1);
 	  
