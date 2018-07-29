@@ -109,8 +109,15 @@ template <typename Dtype>
 inline void setConvolutionDesc(cudnnConvolutionDescriptor_t* conv,
     cudnnTensorDescriptor_t bottom, cudnnFilterDescriptor_t filter,
     int pad_h, int pad_w, int stride_h, int stride_w) {
+#if CUDNN_VERSION_MIN(6, 0, 0) 					//Added from here (amir)
+    // For CuDNN higher version
   CUDNN_CHECK(cudnnSetConvolution2dDescriptor(*conv,
+      pad_h, pad_w, stride_h, stride_w, 1, 1, CUDNN_CROSS_CORRELATION,
+      dataType<Dtype>::type));
+#else
+    CUDNN_CHECK(cudnnSetConvolution2dDescriptor(*conv,
       pad_h, pad_w, stride_h, stride_w, 1, 1, CUDNN_CROSS_CORRELATION));
+#endif 								//Added upto this (amir)
 }
 
 template <typename Dtype>
